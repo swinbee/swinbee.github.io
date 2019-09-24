@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/swinbee.css">
+    <style>
+        #content img {
+            max-width: 70%;
+        }
+    </style>
+    <script
+        type="text/x-mathjax-config"> MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}}); </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+</head>
+
+<body>
+    <div id="topwrapper">
+        <div id="topbar"></div>
+        <div id="contentblock">
+            <div id="content">
+                {{ content }}
+            </div>
+        </div>
+        <div id="push"></div>
+        <div id="bottombar"></div>
+    </div>
+</body>
+
+</html>

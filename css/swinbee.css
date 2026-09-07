@@ -118,10 +118,14 @@ a:active
     /* background: -o-linear-gradient(#ffb366,#ffe6cc); /1* For Opera 11.1 to 12.0 *1/ */
     /* background: -moz-linear-gradient(#ffb366,#ffe6cc); /1* For Firefox 3.6 to 15 *1/ */
     /* background: linear-gradient(#ffb366,#ffe6cc); /1* Standard syntax *1/ */
-    background: -webkit-linear-gradient(#ffb366,#fffaf4); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#ffb366,#fffaf4); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#ffb366,#fffaf4); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#ffb366,#fffaf4); /* Standard syntax */
+    /* background: -webkit-linear-gradient(#ffb366,#fffaf4); /1* For Safari 5.1 to 6.0 *1/ */
+    /* background: -o-linear-gradient(#ffb366,#fffaf4); /1* For Opera 11.1 to 12.0 *1/ */
+    /* background: -moz-linear-gradient(#ffb366,#fffaf4); /1* For Firefox 3.6 to 15 *1/ */
+    /* background: linear-gradient(#ffb366,#fffaf4); /1* Standard syntax *1/ */
+    background: -webkit-linear-gradient(#ffe5cb,#fffaf4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffe5cb,#fffaf4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffe5cb,#fffaf4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffe5cb,#fffaf4); /* Standard syntax */
 }
 
 .tnav {
